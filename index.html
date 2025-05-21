@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pathfinding A* Visualization</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+  </style>
+</head>
+
+<body>
+ <main>
+  <h2>مسیریابی A* روی نقشه</h2>
+  <!-- بوم برای نمایش گرید -->
+  <canvas id="mapCanvas" width="1200" height="600"></canvas>
+  <!-- دکمه‌های کنترل -->
+  <div id="controls">
+    <button class="run-btn" id="runBtn" disabled>اجرا</button>
+    <button id="randomBtn">نقشهٔ تصادفی</button>
+    <button class="reset-btn" id="resetBtn">بازنشانی نقشه</button>
+  </div>
+  <!-- نمایش اطلاعات بعد از اجرا -->
+  <div id="info"></div>
+
+ </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

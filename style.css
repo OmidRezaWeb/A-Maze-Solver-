@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Vazirmatn;
+  margin: 0;
+  padding: 20px;
+  background: #f0f0f0;
+}
+.vazirmatn-font {
+  font-family: "Vazirmatn", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  gap: 20px;
+}
+#mapCanvas {
+  border: 2px solid #333;
+  background: #fff;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#controls {
+  margin-top: 10px;
+}
+#info {
+  margin-top: 15px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: right;
+  line-height: 1.5;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+
+}
+th {
+  background: #eee;
+  text-align: center;
+}
+
+.th-a {
+  width: 10%;
+}
+
+button {
+  width: 200px;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: Vazirmatn;
+  font-size: 16px;
+}
+.run-btn {
+  background: #23bb0c;
+}
+.reset-btn {
+  background: #bb400c;
+}
+button:disabled {
+  background: #ccc;
+  cursor: default;
+}
